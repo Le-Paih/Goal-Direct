@@ -119,7 +119,7 @@ function BootItem({ bootData }) {
             Add to cart
           </ATCBTN>
           <KlarnaDiv>
-            <KlIcon src="/public/svg/klarna-svgrepo-com.svg" />
+            <KlIcon src="/svg/klarna-svgrepo-com.svg" />
             <KlTextDiv>
               <KlText>Make 3 payments of £{(boot.price / 3).toFixed(2)}</KlText>
               <KlText2>18+, T&C apply, Credit subject to status</KlText2>

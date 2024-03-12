@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import popular from "../../data/items";
+import popular from "./../../../public/data/items.json";
 import Product from "./Product";
 import styled from "styled-components";
 

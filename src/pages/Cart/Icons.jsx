@@ -56,18 +56,18 @@ function Icons() {
   return (
     <>
       <IconDiv>
-        <Icon src="/public/svg/american-express-svgrepo-com.svg" />
-        <Icon src="/public/svg/apple-pay-svgrepo-com.svg" />
-        <Icon src="/public/svg/jcb-svgrepo-com.svg" />
-        <Icon src="/public/svg/cb-svgrepo-com.svg" />
-        <Icon src="/public/svg/klarna-svgrepo-com.svg" />
-        <Icon src="/public/svg/maestro-svgrepo-com.svg" />
-        <Icon src="/public/svg/mastercard-svgrepo-com.svg" />
-        <Icon src="/public/svg/paypal-svgrepo-com.svg" />
-        <Icon src="/public/svg/visa-classic-svgrepo-com.svg" />
+        <Icon src="/svg/american-express-svgrepo-com.svg" />
+        <Icon src="/svg/apple-pay-svgrepo-com.svg" />
+        <Icon src="/svg/jcb-svgrepo-com.svg" />
+        <Icon src="/svg/cb-svgrepo-com.svg" />
+        <Icon src="/svg/klarna-svgrepo-com.svg" />
+        <Icon src="/svg/maestro-svgrepo-com.svg" />
+        <Icon src="/svg/mastercard-svgrepo-com.svg" />
+        <Icon src="/svg/paypal-svgrepo-com.svg" />
+        <Icon src="/svg/visa-classic-svgrepo-com.svg" />
       </IconDiv>
       <KlarnaDiv>
-        <KlIcon src="/public/svg/klarna-svgrepo-com.svg" />
+        <KlIcon src="/svg/klarna-svgrepo-com.svg" />
         <KlTextDiv>
           <KlText>Make 3 payments of £{(getCartTotal() / 3).toFixed(2)}</KlText>
           <KlText2>18+, T&C apply, Credit subject to status</KlText2>

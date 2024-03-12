@@ -28,14 +28,14 @@ function App() {
   const [bootData, setBootData] = useState([]);
 
   useEffect(() => {
-    fetch("/src/data/kits.json")
+    fetch("/data/kits.json")
       .then((response) => response.json())
       .then((data) => setKitData(data))
       .catch((error) => console.error("Error fetching data", error));
   }, []);
 
   useEffect(() => {
-    fetch("/src/data/boots.json")
+    fetch("/data/boots.json")
       .then((response) => response.json())
       .then((data) => setBootData(data))
       .catch((error) => console.error("Error fetching data", error));

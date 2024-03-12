@@ -38,7 +38,7 @@ function Navbar() {
     setExtendNavbar(false);
   }
 
-  const src = "/src/photos/Pre-logo.svg";
+  const src = "../svg/Pre-logo.svg";
 
   return (
     <div>
