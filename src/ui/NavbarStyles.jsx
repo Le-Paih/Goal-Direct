@@ -114,7 +114,7 @@ export const Logo = styled.img`
   }
   @media (max-width: 400px) {
     margin: auto;
-    /* margin-top: ; */
+    width: 9rem;
   }
 
   @media (min-width: 401px) and(max-width: 700px) {
