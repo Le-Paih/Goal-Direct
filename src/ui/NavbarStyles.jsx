@@ -66,6 +66,10 @@ export const NavbarLink = styled(Link)`
   @media (max-width: 700px) {
     display: none;
   }
+
+  @media (max-width: 400px) {
+    width: 10px;
+  }
 `;
 
 export const NavbarBtn = styled.button`
@@ -143,7 +147,7 @@ export const OpenLinksButton = styled.button`
   background: none;
   border: none;
   margin-right: 1rem;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
 
   @media (min-width: 700px) {
