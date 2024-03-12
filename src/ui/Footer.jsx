@@ -115,13 +115,13 @@ function Footer() {
       <IconDiv>
         <IconUl>
           <li>
-            <img src="/public/svg/icons8-facebook (1).svg" />
+            <img src="/svg/icons8-facebook (1).svg" />
           </li>
           <li>
-            <img src="/public/svg/icons8-twitterx.svg" />
+            <img src="/svg/icons8-twitterx.svg" />
           </li>
           <li>
-            <img src="/public/svg/icons8-insta.svg" />
+            <img src="/svg/icons8-insta.svg" />
           </li>
         </IconUl>
       </IconDiv>
