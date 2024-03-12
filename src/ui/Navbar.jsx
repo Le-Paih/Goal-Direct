@@ -24,15 +24,10 @@ function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
   const navigate = useNavigate();
   const navbarRef = useRef(null);
-  // const [showModal, setShowModal] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
   const { cartItems } = useContext(CartContext);
 
   const totalQuantity = cartItems.reduce((acc, item) => acc + item.quantity, 0);
-
-  // function toggle() {
-  //   setShowModal(!showModal);
-  // }
 
   function toggleSidebar() {
     setShowSidebar((prevState) => !prevState);
@@ -43,37 +38,7 @@ function Navbar() {
     setExtendNavbar(false);
   }
 
-  // useEffect(() => {
-  //   const handleClickOutsideModal = (event) => {
-  //     if (navbarRef.current && !navbarRef.current.contains(event.target)) {
-  //       // setExtendNavbar(false);
-  //       setShowModal(false);
-  //     }
-  //   };
-  //   if (showModal) {
-  //     document.addEventListener("mousedown", handleClickOutsideModal);
-  //   } else {
-  //     document.removeEventListener("mousedown", handleClickOutsideModal);
-  //   }
-
-  //   return () => {
-  //     document.removeEventListener("mousedown", handleClickOutsideModal);
-  //   };
-  // }, [showModal]);
-
-  // useEffect(() => {
-  //   if (showModal) {
-  //     // Disable scrolling when the modal is open
-  //     document.body.style.overflow = "hidden";
-  //   } else {
-  //     // Enable scrolling when the modal is closed
-  //     document.body.style.overflow = "auto";
-  //   }
-  // }, [showModal]);
-
-  // function handleLinkClick() {
-  //   setExtendNavbar(false);
-  // }
+  const src = "/src/photos/Pre-logo.svg";
 
   return (
     <div>
@@ -88,7 +53,7 @@ function Navbar() {
               {extendNavbar ? <MdClose /> : <RxHamburgerMenu />}
             </OpenLinksButton>
             <Logo
-              src="./photos/Pre-logo.svg"
+              src={src}
               onClick={() => !showSidebar && navigate("/")}
               alt="Logo"
               style={{ pointerEvents: showSidebar ? "none" : "auto" }}
