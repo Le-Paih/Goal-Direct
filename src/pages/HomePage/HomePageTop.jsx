@@ -22,7 +22,7 @@ const ImageCard = styled.div`
   height: 550px;
   width: 500px;
   margin: 2rem;
-  background-image: url(/pictures/Pred-Jose.jpg);
+  background-image: url(/pictures/Pred-Rot.jpg);
 
   background-size: cover;
   background-position: center;
@@ -36,7 +36,7 @@ const ImageCard = styled.div`
 const ImageCard2 = styled.div`
   height: 550px;
   width: 500px;
-  background-image: url(/pictures/PSG-4-Kyks.jpg);
+  background-image: url(/pictures/France.jpg);
   margin: 2rem;
   background-size: cover;
 
@@ -100,7 +100,7 @@ function HomePageTop() {
       </ImageCard>
       <ImageCard2>
         <ImageTextKit>
-          <TextPhoto>PSG Fourth Kit</TextPhoto>
+          <TextPhoto>France Home Kit</TextPhoto>
           <TextPara>Shop latest football kits</TextPara>
           <Button
             size="small"
